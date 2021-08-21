@@ -1,0 +1,115 @@
+<!-- slides -->
+<div>
+    <div class="item active text-center"
+        style="margin-left:120px ; margin-top: 200px; position:absolute; z-index:10; width: 50%; height: 400px;">
+        <h2 style="color:whitesmoke; size: 400px; margin-top:50px;font-size: 25pt;">I am Looking for...</h2>
+        <br><br>
+        <div class="item active text-center" class="bb" style="display:flex;">
+            <input style="width:500px; height:50px; margin-left:250px;" placeholder="Search your desired job here">
+            <button style="color: white; height:50px;background-color: blue; margin-left: 80px;" class="btn btn-outline-dark"><i class="fas fa-search">Search</i></button>
+        </div>
+        <div class="firstpagecheckbox" style="display:flex; margin-left:250px; margin-top:20px;">
+            <input style="margin-top:5px;" type="checkbox" id="che" name="che" ng-model="che" value="true">
+            <label for="che" style="color:black; margin-right:20px">Full Time</label>
+            <input style="margin-top:5px;" type="checkbox" id="che" name="che" ng-model="che" value="true">
+            <label for="che" style="color:black;">Part-Time Job</label>
+
+            <div class="form-group" style="margin-left:60px;">
+                <select name="stats" style="width:90%;  border:none;" type="text"
+                    style="font-size:1rem; color:grey;">
+                    <option value="   "> Location</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Maharastra">Maharastra</option>
+                </select>
+
+            </div>
+        </div>
+        <button  style="margin-left:200px;background-color: blue;" class=" btn btn-primary" (click)="openRegistrationDialog()">Registration</button>
+
+    </div>
+</div>
+
+
+
+
+
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img style=" height:90vh; width:70vw;  filter: blur(8px);"
+                src="https://images.unsplash.com/photo-1564540574859-0dfb63985953?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fG9mZmljZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+                class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img style=" height:90vh;  filter: blur(8px);"
+                src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+                class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img style=" height:90vh; width:70vw;  filter: blur(8px);"
+                src="https://images.unsplash.com/photo-1481487196290-c152efe083f5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1130&q=80"
+                class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+    </a>
+    
+</div>
+
+
+<div id="about" class="abtus" style="text-align: center;" >
+    <h2 style="margin-top:70px;"> We are Leader's in...</h2>
+   <h1> CREATIVE DIGITAL RECRUITMENT</h1>
+   <h5 style="color: blue;">__________________________________________________________</h5>
+  
+   <p>Based in Surry Hills,the creative hub of Sydney we are surrounded by creativity </p>
+   <p>and that reflects on the type of jobs we recruit for.</p>
+     <button style=" width: 350px; height: 50px;  border: 2px solid blue; font-size:1rem; background-color:transparent; color: blue;" type="button" class="morebtn">Read More About Us</button>
+   </div>
+   <!-- Footer -->
+   <footer  style="height:200px; background-color:black; margin-top:100px; padding-bottom:80px;">
+    <div id="contacts" class="last"></div>
+    <hr >
+   <br>
+   <h5  style="color:white; text-align: center; font-size: medium;"> enter email for more information</h5>
+   <div style="display:flex; margin-left:550px;"><input style="width:40%; border:2px solid blue; background-color:white; color:white; " type="text" placeholder="Enter your Email Address">
+   <i style="width:40px; height:40px; background-color:white; color:blue; border:2px solid blue;  font-size:2rem; " class="far fa-envelope"></i>
+   <br><br>
+  
+   </div>
+   </footer>
+
+   <footer>
+    <div id="contact" class="lastfoot">
+        <div>
+        <i style="width:40px; margin-left: 1220px; height:40px; background-color:white; color:blue;  font-size:2rem; " class="far fa-envelope"></i>
+         <input style="width: 10%;height: 40px; border:2px solid blue; " placeholder="enter email"></div>
+         <a href="#" class="fa fa-facebook">facebook</a>
+<a href="#" class="fa fa-twitter">twitter</a>
+         <p style="margin-right: 1300px;color:cyan;">Copyright© 2014 Career</p>
+         
+        
+        
+      
+    </div>
+
+  </footer>
+ 
+ 
